@@ -98,11 +98,11 @@
  document.addEventListener("visibilitychange",
  function() {
   if (document.hidden) {
-    $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-j/ysni@5.1.1/ico/yu.ico");
+    $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-j/chenyu/yu.ico");
     document.title = "Hi，好久不见！";
     clearTimeout(titleTime)
 } else {
-    $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-j/ysni@5.1.1/ico/favicon.ico");
+    $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-j/chenyu/favicon.ico");
     document.title = "你还好吗？ -  " + OriginTitile;
     titleTime = setTimeout(function() {
         document.title = OriginTitile
