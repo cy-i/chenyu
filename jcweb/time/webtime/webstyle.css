@@ -1,0 +1,378 @@
+@charset "utf-8";
+
+html, body {
+	padding:0px;
+	background-color: #fff;
+	font-family:Tahoma, Geneva, sans-serif;
+    padding: 0px;
+    background-color: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #F0EEEF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-text-size-adjust: none;
+    background-attachment: fixed;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a:link { 
+	color:#fff;
+	text-decoration: none;
+}
+
+a:visited { 
+	color:#fff;
+	text-decoration: none;	
+}
+
+a:hover {
+	color:#fff;
+	text-decoration: none;
+}
+
+a:active {
+	color:#fff;
+	text-decoration: none;
+}
+
+h2 {
+	font-size:14px;
+	color:#FFF;
+}
+
+ul#lsn {
+	list-style:none;
+}
+
+ul#lsninline {
+	list-style:none;
+	float:left;
+}
+
+#wrap {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	left:0px;
+	top:0px;
+    width: 1000px;
+	height:499px;
+	text-align:center;
+}
+/* 2- header with logo
+
+---------------------------------------------------*/
+
+#logo {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:720px;
+	height:230px;
+	text-align:left;
+	padding-top:50px;
+	padding-left: 25px;
+	z-index: 1000;
+}
+
+/* 3- main container with image/message and countdown
+
+---------------------------------------------------*/
+
+#container {
+	position:absolute;
+	left:0px;
+	top:150px;
+	width:771px;
+	height:320px;
+	background-repeat:no-repeat;
+}
+
+#ucimage {
+	position:absolute;
+	left:0px;
+	top:40px;
+	width:771px;
+	height:87px;
+}
+
+#uctext {
+	position:absolute;
+	left:0px;
+	top:100px;
+	width:771px;
+	height:43px;
+}
+
+#uccounter {
+	position:absolute;
+	left:0px;
+	top:150px;
+	width:771px;
+	height:190px;
+}
+
+
+.countdown_section {
+	display: block;
+	float:left;
+	text-align:center;
+	font-weight:normal;
+	color: #666666;
+	font-size:12px;
+	width: 144px;
+	padding-top:10px;
+	line-height:inherit;
+}
+
+.countdown_amount {
+	font-size:90px;
+	color: #ffffff;
+	line-height: 109px;
+}
+
+#overlay {
+	position:absolute;
+	left:25px;
+	top:74px;
+	width:720px;
+	height:148px;
+	background-image: url('images/flipoverlay.png');
+	background-repeat:repeat-x;
+}
+
+#overlay_2 {
+	position:absolute;
+	top:190px;
+	width:720px;
+	height:150px;
+	text-align: left;
+	padding-left: 25px;
+}
+
+#defaultCountdown {
+	position:absolute;
+	left:25px;
+	top:0px;
+	width:720px;
+	height:148px;
+	background-image: url('images/flipbg.png');
+	background-repeat:repeat-x;
+}
+
+/* 4- footer with twitter and subscribe form
+
+---------------------------------------------------*/
+
+#footer {
+	position:absolute;
+	left:0px;
+	top:434px;
+	width:771px;
+	height:65px;
+	background-image:url('https://cdn.jsdelivr.net/gh/cy-j/ysni@3.3.6/logo.png');
+	background-repeat:no-repeat
+}
+
+#tweet {
+	position:absolute;
+	top:2px;
+	left:0px;
+	width:550px;
+	height:65px;
+	padding:5px;
+	text-align:left;
+	font-size:14px;
+	color:#FFF;
+	vertical-align:middle;
+}
+
+ul#tweet {
+	margin:0px;
+}
+
+#tweet li {
+	padding-top:3px;
+	padding-left: 0px;
+	list-style:none;
+}
+
+p#loadingtwitter {
+	padding-left:40px;
+}
+
+#subscribe {
+	position:absolute;
+	padding-top:0px;
+	right:8px;
+	width:200px;
+	height:65px;
+	text-align:right;
+	top: 0px;
+}
+
+#note {
+	height:8px;
+}
+
+.textbox {
+	padding:4px;
+	border:1px solid #CCCCCC;
+	width:130px;
+	height:18px;
+	vertical-align:middle;
+}
+
+.button {
+	padding-right:5px;
+	vertical-align:middle;
+}
+
+ul#cc {
+	padding:0px;
+	position:absolute;
+	top:2px;
+	right:0px;
+	width:200px;
+	text-align:right;
+	list-style:none;
+	vertical-align:middle;
+}
+
+.notification_error {
+	height: auto;
+	width: 90%;
+	padding: 0px;
+	text-align: left;
+	color:#fff;
+	font-size:10px;
+}
+
+.notification_ok {
+	height: auto;
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: right;
+	color: #FFF;
+	font-size:14px;
+}
+
+.statistics {width: 771px;margin-right: auto;margin-left: auto;height: 15px;font-family: Verdana;font-size: 11px;color: #2B2B2B;text-align: right;}
+.statistics a { color:#2B2B2B; text-decoration:none;}
+.statistics a:hover {text-decoration:none;}
+
+/*ä¯ÀÀÆ÷¹ö¶¯Ìõ*/
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px
+}
+
+::-webkit-scrollbar-button:vertical {
+	display: none
+}
+
+::-webkit-scrollbar-track:vertical {
+	background-color: black
+}
+
+::-webkit-scrollbar-track-piece {
+	background: #EAEAEA
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #d1ab73;
+	border-radius: 4px
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+	background-color: #c49e66
+}
+
+::-webkit-scrollbar-corner:vertical {
+	background-color: #535353
+}
+
+::-webkit-scrollbar-resizer:vertical {
+	background-color: #FF6E00
+}
+
+
+.ribbon {
+    position: fixed;
+    top: 4.6em;
+    left: -3.4em;
+    z-index: 9999;
+    width: 18em;
+    height: 2em;
+    overflow: hidden;
+    background-color: #dc3545;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    line-height: 2em;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.ribbon-sm { font-size: 13px; }
+.ribbon-md { font-size: 16px; }
+.ribbon-lg { font-size: 20px; }
+
+.ribbon-primary { background-color: #007bff; }
+.ribbon-secondary { background-color: #6c757d; }
+.ribbon-success { background-color: #28a745; }
+.ribbon-warning { background-color: #ffc107; }
+.ribbon-info { background-color: #17a2b8; }
+.ribbon-light 
+{ 
+    color: #343a40;
+    background-color: #f8f9fa;
+}
+.ribbon-dark { background-color: #343a40; }
+.ribbon-white 
+{ 
+    color: #343a40;
+    background-color: #ffffff;
+}
+
+.ribbon.ribbon-top-right 
+{ 
+    left: auto;
+    right: -3.4em;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.ribbon.ribbon-bottom-left 
+{ 
+    top: auto;
+    bottom: 4.6em;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.ribbon.ribbon-bottom-right 
+{ 
+    top: auto;
+    left: auto;
+    bottom: 4.6em;
+    right: -3.4em;
+}

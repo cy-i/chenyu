@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size:0px;
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+	position:absolute;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#cad6dd;
+	overflow:hidden;
+	background-color:#141929;
+	font-family:'Microsoft Yahei';
+}
+.NowData {
+	background-image:-webkit-linear-gradient(bottom,rgb(255 0 0),rgb(255 0 0));
+	background-size:100% 20px;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+.yearBox {
+	height:10vh;
+	width:10vh;
+	position:absolute;
+	display:flex;
+	font-size:16px;
+	align-items:center;
+	justify-content:center;
+	border-radius:50%;
+	transition:1s;
+	background-image:-webkit-linear-gradient(bottom,rgb(255 0 0),rgb(255 0 0));
+	background-size:100% 20px;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+.mounthBox {
+	height:25vh;
+	width:25vh;
+	position:absolute;
+	display:flex;
+	align-items:center;
+	border-radius:50%;
+	transition:1s;
+}
+.dayBox {
+	height:40vh;
+	width:40vh;
+	border-radius:50%;
+	display:flex;
+	align-items:center;
+	position:absolute;
+	transition:1s;
+}
+.hourBox {
+	height:55vh;
+	width:55vh;
+	position:absolute;
+	display:flex;
+	align-items:center;
+	transition:1s;
+	border-radius:50%;
+}
+.minuteBox {
+	height:70vh;
+	width:70vh;
+	position:absolute;
+	display:flex;
+	align-items:center;
+	border-radius:50%;
+	transition:1s;
+}
+.secondBox {
+	height:85vh;
+	width:85vh;
+	display:flex;
+	align-items:center;
+	position:absolute;
+	border-radius:50%;
+	transition:1s;
+}

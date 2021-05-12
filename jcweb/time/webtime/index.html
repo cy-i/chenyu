@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="hb-loaded">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>遇上你-网站运行时间</title>
+
+    <link rel="stylesheet" type="text/css" media="all" href="webstyle.css" />
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.countdown.js"></script>
+    <script type="text/javascript" src="DD_belated.js"></script> <!--IE6 png图片处理-->
+    <script type="text/javascript">
+        $(function () {
+            $('#defaultCountdown').countdown({
+                since: new Date(2019, 10 - 1, 13, 0, 0, 0), 
+                format: 'ODHMS'
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+    <div id="wrap">
+        <div id="logo">
+            <a href="#"><img class="png" src="images/weblogo.png" border="0"   /></a>
+        </div>
+        <div id="container">
+            <ul id="lsn">
+                <li id="uctext"><h2></h2></li>
+                <li id="uccounter">
+                    <div id="defaultCountdown"></div>
+                    <div id="overlay"></div>
+                    <div id="overlay_2">
+                        <img class="png" src="images/ks.png" alt="这里记录奇迹秀从开始到现在" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<a class="ribbon" href="https://www.ysni.cn/">遇上你——遇见最美时光</a>
+
+
+</body>
+</html>
