@@ -1,7 +1,7 @@
 /**
  * js网页雪花效果jquery插件 
- * 遇上你 Ysni.cn   整理
- * @see https://www.ysni.cn
+ * 尘遇 ChenYu.Me   整理
+ * @see https://chenyu.me
  * <!--下面是调用方法和参数说明-->
  * <script>
  * $(function(){
@@ -24,7 +24,7 @@
 									minSize		: 10,		//雪花的最小尺寸
 									maxSize		: 20,		//雪花的最大尺寸
 									newOn		: 1000,		//雪花出现的频率
-									flakeColor	: "#FFFFFF"	//遇上你 Ysni.cn   整理
+									flakeColor	: "#FFFFFF"	//尘遇 ChenYu.Me   整理
 								},
 				options			= $.extend({}, defaults, options);
 			

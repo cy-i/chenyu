@@ -14,7 +14,7 @@
         ,success: function(layero){
           var btn = layero.find('.layui-layer-btn');
           btn.find('.layui-layer-btn0').attr({
-            href: 'https://www.ysni.cn/'
+            href: 'https://chenyu.me/'
             ,target: '_blank'
           });
         }
