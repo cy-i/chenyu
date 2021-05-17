@@ -1,26 +1,3 @@
-body {
-  background: #e0e5ec;
-}
-h1 {
-  position: relative;
-  text-align: center;
-  color: #353535;
-  font-size: 50px;
-  font-family: "Cormorant Garamond", serif;
-}
-
-p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  font-size: 18px;
-  color: #676767;
-}
-.frame {
-  width: 90%;
-  margin: 40px auto;
-  text-align: center;
-}
 button {
   margin: 20px;
 }
