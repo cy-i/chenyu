@@ -44,35 +44,40 @@
                 async:true,
                 success:function(data){
                     window.info = data;
-                    layer.msg("Hi~ 来自"+ data.data.location + '~<br/>通过 '+msgTitle+' 进来的朋友！<br/>使用 '+ data.data.os +"<br/>"+ data.data.browser +' 访问本站！' + '<br/>' + msg,{
-                    time: 10000 //0为不自动关闭
-                    ,btn: ['拜访', '路过']
-                    ,btnAlign: 'c'    //c为居中
-                     ,yes: function(index){
-                    layer.close(index);
-                     layer.open({
-                    type: 1
-                   ,title: "当我遇上你" //不显示标题栏   title : false/标题
-                    ,closeBtn: 1
-                    ,area: '300px;'
-                    ,shade: 0.8
-                    ,id: 'YsNi_layuipro' //设定一个id，防止重复弹出
-                    ,resize: false
-                    ,btn: ['寒山别哭', '嘴巴嘟嘟']
-                    ,time: 10000  //0为不自动关闭
-                    ,btnAlign: 'c'    //c为居中
-                    ,moveType: 1 //拖拽模式，0或者1
-                    ,content: '<div style="padding: 40px; line-height: 22px; background-color: #393D49; color: #fff; font-weight: 300;">愿你眉眼如初，风华如故；<br>愿你有诗有梦，有坦荡的远方；<br>愿你历遍山河，仍觉得人间值得；<br>敬往事一杯酒，让过去不回头…</div>'
-                    ,success: function(layero){
-               var btn = layero.find('.layui-layer-btn');
-                            btn.find('.layui-layer-btn0').attr({
-                  href: 'https://chenyu.me/chat/'
-                            ,target: '_blank'
-               });
-                    }
-                });
-                        }
-                    });
+                    layer.msg("Hi~ 来自"+ data.data.location + '~<br/>通过 '+msgTitle+' 进来的朋友！<br/>使用 '+ data.data.os +"<br/>"+ data.data.browser +' 访问本站！' + '<br/>' + msg);
+                    var showFPS = (function(){
+                        var requestAnimationFrame =
+                            window.requestAnimationFrame ||
+                            window.webkitRequestAnimationFrame ||
+                            window.mozRequestAnimationFrame ||
+                            window.oRequestAnimationFrame ||
+                            window.msRequestAnimationFrame ||
+                            function(callback) {
+                                window.setTimeout(callback, 1000/60);
+                            };
+                        var e,pe,pid,fps,last,offset,step,appendFps;
+ 
+                        fps = 0;
+                        last = Date.now();
+                        step = function(){
+                            offset = Date.now() - last;
+                            fps += 1;
+                            if( offset >= 1000 ){
+                            last += offset;
+                            appendFps(fps);
+                            fps = 0;
+                            };
+                            requestAnimationFrame( step );
+                        };
+                        appendFps = function(fps){
+                            var settings = {
+                                timeout: 5000,
+                                logError: true
+                            };
+                            $('#fps').html('<span style="float:left;">'+fps+'FPS</span><br/><span style="float:left">'+window.info.data.os+'</span><br/><span style="float:left;margin-top:1px;">'+window.info.data.browser+'</span><br/><span style="float:left;margin-top:1px;">'+window.info.data.location+'</span><br/><span style="float:left;margin-top:1px;"></span>');
+                        };
+                        step();
+                    })();
                 }
             });
         };
