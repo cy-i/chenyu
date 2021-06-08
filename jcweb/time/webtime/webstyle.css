@@ -174,7 +174,7 @@ ul#lsninline {
 	top:434px;
 	width:771px;
 	height:65px;
-	background-image:url('https://cdn.jsdelivr.net/gh/cy-j/ysni@3.3.6/logo.png');
+	background-image:url('https://cdn.jsdelivr.net/gh/cy-j/chenyu/logo.png');
 	background-repeat:no-repeat
 }
 
@@ -266,7 +266,7 @@ ul#cc {
 .statistics a { color:#2B2B2B; text-decoration:none;}
 .statistics a:hover {text-decoration:none;}
 
-/*ä¯ÀÀÆ÷¹ö¶¯Ìõ*/
+/*æµè§ˆå™¨æ»šåŠ¨æ¡*/
 ::-webkit-scrollbar {
 	width: 5px;
 	height: 5px
