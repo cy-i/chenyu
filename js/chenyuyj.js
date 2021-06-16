@@ -82,9 +82,9 @@ layer.open({
 }); 
 });
 
-//支持
+//人生
 $(document).on('click', '#ysnids', function() {
-//交个朋友
+//最美时光
 layer.open({
   type: 2,
   title: '愿你眉眼如初，风华如故；愿你有诗有梦，有坦荡的远方！',
@@ -95,4 +95,22 @@ layer.open({
   content: ['https://player.chenyu.me/player/?url=https://171905.xyz/zy/web/zmsg.mp4', 'no'] //iframe的url
 }); 
   layer.msg('点击视频外任意处关闭');
+});
+
+//支持
+$(document).on('click', '#chenyuds', function() {
+//交个朋友
+layer.tab({
+  area: ['600px', '350px'],
+  tab: [{
+    title: '支付宝', 
+    content: '<div style="padding:20px; line-height:30px; text-align:center"><img src="https://cdn.jsdelivr.net/gh/cy-j/chenyu/img/zsm/zs-zfb.webp" border="0" width="100%" height="100%"></div>'
+  }, {
+    title: '微信', 
+    content: '<div style="padding:20px; line-height:30px; text-align:center"><img src="https://cdn.jsdelivr.net/gh/cy-j/chenyu/img/zsm/zs-wx.webp" border="0" width="100%" height="100%"></div>'
+  }, {
+    title: 'QQ', 
+    content: '<div style="padding:20px; line-height:30px; text-align:center"><img src="https://cdn.jsdelivr.net/gh/cy-j/chenyu/img/zsm/zs-qq.webp" border="0" width="100%" height="100%"></div>'
+  }]
+   });
 });
