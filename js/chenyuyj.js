@@ -101,7 +101,7 @@ layer.open({
 $(document).on('click', '#chenyuds', function() {
 //交个朋友
 layer.tab({
-  area: ['600px', '350px'],
+  area: ['600px', '340px'],
   tab: [{
     title: '支付宝', 
     content: '<div style="padding:20px; line-height:30px; text-align:center"><img src="https://cdn.jsdelivr.net/gh/cy-j/chenyu/img/zsm/zs-zfb.webp" border="0" width="100%" height="100%"></div>'
