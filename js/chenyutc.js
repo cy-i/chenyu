@@ -1,6 +1,6 @@
 //尘遇-相册
-$(document).on('click', '#chenyuxc', function() {
-$.getJSON('https://cdn.jsdelivr.net/gh/cy-j/chenyu/jcweb/ysni/photos.json?v='+new Date, function(json){
+$(document).on('click', '#chenyuxc1', function() {
+$.getJSON('https://cdn.jsdelivr.net/gh/cy-j/chenyu/jcweb/ysni/photos1.json?v='+new Date, function(json){
   layer.photos({
     photos: json //格式见API文档手册页
   });
