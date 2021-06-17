@@ -28,7 +28,7 @@ $.getJSON('https://cdn.jsdelivr.net/gh/cy-j/chenyu/jcweb/ysni/photos3.json?v='+n
 });
 
 //尘遇-遇上你
-$(document).on('click', '#ysni520', function() {
+$(document).on('click', '#chenyu520', function() {
 layer.open({
   type: 2,
   title: '对自己好点，因为一辈子不长；对身边的人好点，因为下辈子不一定能遇见',
@@ -41,7 +41,7 @@ layer.open({
 });
 
 //尘遇-建站时间感谢有你
-$(document).on('click', '#ysnitime', function() {
+$(document).on('click', '#chenyutime', function() {
 layer.open({
   type: 2,
   title: '漫漫岁月，见，或不见；关注本站，我，都陪你',
@@ -54,7 +54,7 @@ layer.open({
 });
 
 //尘遇-人生
-$(document).on('click', '#ysnids', function() {
+$(document).on('click', '#chenyuds', function() {
 //最美时光
 layer.open({
   type: 2,
