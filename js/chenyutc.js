@@ -67,3 +67,27 @@ layer.open({
 }); 
   layer.msg('点击视频外任意处关闭');
 });
+
+//尘遇打赏码
+$(document).on('click', '#chenyuds', function() {
+layer.open({
+  type: 1
+  ,title: '微信/QQ/支付宝三合一收款码' //false为不显示标题栏
+  ,closeBtn: false
+  ,area: '300px;'
+  ,shade: 0.8
+  ,id: 'LAY_cydspro' //设定一个id，防止重复弹出
+  ,resize: false
+  ,btn: ['赞助名单', '微笑拒绝']
+  ,btnAlign: 'c'
+  ,moveType: 1 //拖拽模式，0或者1
+  ,content: '<div style="padding:20px; line-height:30px;  background-color: #393D49; color: #fff; font-weight: 300; text-align:center;"><img src="https://cdn.jsdelivr.net/gh/cy-j/chenyu/img/zsm/cycode-cy.png" border="0" width="200px" height="200px"></div>'
+  ,success: function(layero){
+    var btn = layero.find('.layui-layer-btn');
+    btn.find('.layui-layer-btn0').attr({
+      href: 'https://chenyu.me/'
+      ,target: '_blank'
+    });
+  }
+});
+});
