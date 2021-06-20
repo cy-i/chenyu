@@ -68,7 +68,7 @@ layer.open({
   layer.msg('点击视频外任意处关闭');
 });
 
-//尘遇打赏码
+//尘遇-打赏码
 $(document).on('click', '#chenyuds', function() {
 layer.open({
   type: 1
