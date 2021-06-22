@@ -85,7 +85,7 @@ layer.open({
   ,success: function(layero){
     var btn = layero.find('.layui-layer-btn');
     btn.find('.layui-layer-btn0').attr({
-      href: 'https://chenyu.me/'
+      href: 'https://chenyu.me/120.html'
       ,target: '_blank'
     });
   }
