@@ -54,7 +54,7 @@ layer.open({
 });
 
 //尘遇-人生
-$(document).on('click', '#chenyuds', function() {
+$(document).on('click', '#chenyurs', function() {
 //最美时光
 layer.open({
   type: 2,
