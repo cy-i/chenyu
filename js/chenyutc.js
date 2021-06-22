@@ -91,3 +91,29 @@ layer.open({
   }
 });
 });
+
+//尘遇-自定义弹窗1
+$(document).on('click', '#chenyuzdy1', function() {
+layer.open({
+  type: 1,
+  title: false,
+  closeBtn: 0,
+  area: ['auto'],
+  skin: 'layui-layer-nobg', //没有背景色
+  shadeClose: true,
+  content: $('#cyzdy1')
+});
+});
+
+//尘遇-自定义弹窗2
+$(document).on('click', '#chenyuzdy2', function() {
+layer.open({
+  type: 1,
+  title: false,
+  closeBtn: 0,
+  area: ['auto'],
+  skin: 'layui-layer-nobg', //没有背景色
+  shadeClose: true,
+  content: $('#cyzdy2')
+});
+});
