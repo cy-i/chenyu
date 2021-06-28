@@ -336,7 +336,7 @@
 .chenyuwancheng{
 	padding: 2em 0;
 		}
-.progress{
+.cywcdprogress{
 	height: 7px;
 	background: #e3e3e3;
 	border-radius: 0;
@@ -345,7 +345,7 @@
 	overflow: visible;
 	position: relative;
 		}
-.progress .progress-title{
+.cywcdprogress .cywcdprogress-title{
 	padding: 7px 10px;
 	margin: 0;
 	background: #393a3d;
@@ -360,7 +360,7 @@
 	left: 0;
 	z-index: 1;
 		}
-.progress .progress-title:after{
+.cywcdprogress .cywcdprogress-title:after{
 	content: "";
 	border-left: 17px solid #393a3d;
 	border-top: 17px solid transparent;
@@ -369,14 +369,14 @@
 	top: 0;
 	right: -17px;
 		}
-.progress .progress-bar{
+.cywcdprogress .cywcdprogress-bar{
 	box-shadow: none;
 	border-radius: 0;
 	position: relative;
 	-webkit-animation: animate-positive 2s;
 	animation: animate-positive 2s;
 		}
-.progress .progress-bar:after{
+.cywcdprogress .cywcdprogress-bar:after{
 	content: "";
 	width: 20px;
 	height: 20px;
@@ -387,7 +387,7 @@
 	right: -5px;
 	top: -6px;
 		}
-.progress .progress-value{
+.cywcdprogress .cywcdprogress-value{
 	width: 45px;
 	height: 30px;
 	line-height: 30px;
@@ -402,7 +402,7 @@
 	bottom: 30px;
 	right: -17px;
 		}
-.progress .progress-value:after{
+.cywcdprogress .cywcdprogress-value:after{
 	content: "";
 	border-top: 7px solid #393a3d;
 	border-left: 7px solid transparent;
@@ -411,8 +411,8 @@
 	bottom: -7px;
 	left: 35%;
 		}
-.progress.green .progress-bar:after{ border: 5px solid #21da9a; }
-.progress.pink .progress-bar:after{ border: 5px solid #ff1170; }
-.progress.blue .progress-bar:after{ border: 5px solid #294bdc; }
-.progress.yellow .progress-bar:after{ border: 5px solid #ffa900; }
+.cywcdprogress.green .cywcdprogress-bar:after{ border: 5px solid #21da9a; }
+.cywcdprogress.pink .cywcdprogress-bar:after{ border: 5px solid #ff1170; }
+.cywcdprogress.blue .cywcdprogress-bar:after{ border: 5px solid #294bdc; }
+.cywcdprogress.yellow .cywcdprogress-bar:after{ border: 5px solid #ffa900; }
 /* 尘遇-完成度百分比 */
