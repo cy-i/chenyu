@@ -1,0 +1,84 @@
+/* 尘遇-完成度百分比 */
+.cywcd{
+	padding: 2em 0;
+		}
+.cyprog{
+	height: 7px;
+	background: #e3e3e3;
+	border-radius: 0;
+	box-shadow: none;
+	margin: 40px 0 80px;
+	overflow: visible;
+	position: relative;
+		}
+.cyprog .cyprog-title{
+	padding: 7px 10px;
+	margin: 0;
+	background: #393a3d;
+	border-radius: 5px 0 0 5px;
+	box-shadow: 0 7px 7px rgba(0,0,0,0.4);
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	position: absolute;
+	top: -13px;
+	left: 0;
+	z-index: 1;
+		}
+.cyprog .cyprog-title:after{
+	content: "";
+	border-left: 17px solid #393a3d;
+	border-top: 17px solid transparent;
+	border-bottom: 17px solid transparent;
+	position: absolute;
+	top: 0;
+	right: -17px;
+		}
+.cyprog .cyprog-bar{
+	box-shadow: none;
+	border-radius: 0;
+	position: relative;
+	-webkit-animation: animate-positive 2s;
+	animation: animate-positive 2s;
+		}
+.cyprog .cyprog-bar:after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.6);
+	background: #fff;
+	position: absolute;
+	right: 3px;
+	top: -12px;
+		}
+.cyprog .cyprog-value{
+	width: 45px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	background: #393a3d;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+	right: -2px;
+		}
+.cyprog .cyprog-value:after{
+	content: "";
+	border-top: 7px solid #393a3d;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	position: absolute;
+	bottom: -7px;
+	left: 35%;
+		}
+.cyprog.green .cyprog-bar:after{ border: 5px solid #21da9a; }
+.cyprog.pink .cyprog-bar:after{ border: 5px solid #ff1170; }
+.cyprog.blue .cyprog-bar:after{ border: 5px solid #294bdc; }
+.cyprog.yellow .cyprog-bar:after{ border: 5px solid #ffa900; }
+/* 尘遇-完成度百分比 */
