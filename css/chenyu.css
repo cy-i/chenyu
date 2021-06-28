@@ -338,7 +338,6 @@
 		}
 .cyprog{
 	height: 7px;
-	width: 98%
 	background: #e3e3e3;
 	border-radius: 0;
 	box-shadow: none;
@@ -385,7 +384,7 @@
 	box-shadow: 0 5px 5px rgba(0,0,0,0.6);
 	background: #fff;
 	position: absolute;
-	right: -5px;
+	right: 3px;
 	top: -12px;
 		}
 .cyprog .cyprog-value{
@@ -401,7 +400,7 @@
 	text-align: center;
 	position: absolute;
 	bottom: 30px;
-	right: -10px;
+	right: -2px;
 		}
 .cyprog .cyprog-value:after{
 	content: "";
