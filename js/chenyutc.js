@@ -97,6 +97,7 @@ $(document).on('click', '#chenyuzdy1', function() {
 layer.open({
   type: 1,
   title: false,
+  shade: 0.8,
   closeBtn: 0,
   area: ['auto'],
   skin: 'layui-layer-nobg', //没有背景色
@@ -110,6 +111,7 @@ $(document).on('click', '#chenyuzdy2', function() {
 layer.open({
   type: 1,
   title: false,
+  shade: 0.8,  	  
   closeBtn: 0,
   area: ['auto'],
   skin: 'layui-layer-nobg', //没有背景色
