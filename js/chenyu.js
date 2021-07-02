@@ -14,7 +14,18 @@
         if (window.event && window.event.keyCode == 123) {
           event.keyCode = 0;
           event.returnValue = false;
-          return false;
+      //按下F12弹窗
+      layer.confirm('<div style="padding:20px; line-height:30px; color: #000; text-align:center;">最怕问初衷，大梦成空。<br>眉间鬓上老英雄，剑甲鞮鍪封厚土，说甚擒龙。 <br>壮志付西风，逝去无踪。<br>少年早作一闲翁，诗酒琴棋终日里，岁月匆匆。</div>', {
+        btn: ['对不起','寒山别哭'] //按钮
+      }, function(){
+        layer.msg('<div style="padding:20px; line-height:30px; color: #000; text-align:center;">我怀念的不是哪个人，而是我那回不去的曾经，<br>突然很想跟自己说声对不起，对不起再也找不回原来的自己了。</div>', {icon: 1});
+      }, function(){
+        layer.msg('我说寒山别哭，你说嘴巴嘟嘟……', {
+          time: 20000, //20s后自动关闭
+          btn: ['别哭', '嘟嘟']
+        });
+      }); 
+      return false;
         }
         //ctrl+u
         if (event.ctrlKey && window.event.keyCode == 85) {
@@ -30,7 +41,7 @@
         }
       };
 });
-    
+
 /* 自定义Console */
     Function.prototype.getMultiLine = function () {
             var lines = new String(this);
