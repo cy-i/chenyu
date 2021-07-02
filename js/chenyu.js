@@ -1,3 +1,4 @@
+/* 禁止右键，F12，保存等 */
     $(document).ready(function () {
       document.oncontextmenu = function () {
         return false;
@@ -13,19 +14,6 @@
         if (window.event && window.event.keyCode == 123) {
           event.keyCode = 0;
           event.returnValue = false;
-
-      //询问框
-      layer.confirm('<div style="padding:20px; line-height:30px; color: #000; text-align:center;">最怕问初衷，大梦成空。<br>眉间鬓上老英雄，剑甲鞮鍪封厚土，说甚擒龙。 <br>壮志付西风，逝去无踪。<br>少年早作一闲翁，诗酒琴棋终日里，岁月匆匆。</div>', {
-        btn: ['对不起','寒山别哭'] //按钮
-      }, function(){
-        layer.msg('<div style="padding:20px; line-height:30px; color: #000; text-align:center;">我怀念的不是哪个人，而是我那回不去的曾经，<br>突然很想跟自己说声对不起，对不起再也找不回原来的自己了。</div>', {icon: 1});
-      }, function(){
-        layer.msg('我说寒山别哭，你说嘴巴嘟嘟……', {
-          time: 20000, //20s后自动关闭
-          btn: ['别哭', '嘟嘟']
-        });
-      });  
-
           return false;
         }
         //ctrl+u
@@ -41,17 +29,15 @@
           return false;
         }
       };
-
-    });
+});
     
-    
+/* 自定义Console */
     Function.prototype.getMultiLine = function () {
             var lines = new String(this);
             lines = lines.substring(lines.indexOf("/*") + 3, lines.lastIndexOf("*/"));
             return lines;
         }
- 
-        var string = function () {
+         var string = function () {
 /*
 
           _____                _____                    _____          
@@ -92,7 +78,7 @@
       window.console.log("%c尘遇 | ChenYu.Me", "color:#fff; background: linear-gradient(270deg, #986fee, #8695e6, #68b7dd, #18d7d3); padding: 8px 15px; border-radius: 0 15px 0 15px")
       window.console.log("%chttps://chenyu.me"," text-shadow: 0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);font-size:5em");
 
-  /*  动态网页标题*/
+/* 动态网页标题 */
  var OriginTitile = document.title,
   titleTime;
  document.addEventListener("visibilitychange",
@@ -111,7 +97,7 @@
 }
 });
 
-  /*  哀悼日网站变灰*/
+/* 哀悼日网站变灰 */
 if(aidaori()){
     $("html").css({
         "filter":"gray !important",
@@ -151,3 +137,28 @@ function aidaori(){
         return 0;
     }
 }
+
+/* 字体闪烁变色特效 */
+function magicColor(mode,t){
+    t=t||10;
+    let elem=document.getElementsByClassName("magic-color");
+    if(!elem){
+        setTimeout(function(){
+            magicColor(mode,t-1);
+        },400);
+        return;
+    }
+    if(window.mcHandler==undefined){
+        window.mcHandler={elements:[]};
+        window.mcHandler.colorIndex=0;
+        window.mcHandler.run=function(mode){
+            let color=mode=="random"?("rgb("+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+",1)"):["#CC0000","#9999CC","#CC3366","#669999","#FFCC00","#00CCCC","#CC00CC"][(window.mcHandler.colorIndex++)%7];
+            for(var i=0,L=window.mcHandler.elements.length;i<L;i++)window.mcHandler.elements[i].style.color=color;
+        }
+    }
+    window.mcHandler.elements=elem;
+    if(window.mcHandler.timer==undefined){
+        window.mcHandler.timer=setInterval(()=>{window.mcHandler.run(mode)},500);
+    }
+}
+magicColor(random);//random为随机颜色，否则为固定颜色随机；上方“闪烁（变色）”字样为固定颜色随机
