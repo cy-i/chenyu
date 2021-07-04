@@ -320,7 +320,7 @@
 	outline: 0;
 	border: none;
 	border-radius: 3px;
-	background: #746afc;
+	background: var(--theme);
 	color: #fff;
 	text-align: center;
 	line-height: 2.4;
