@@ -30,7 +30,7 @@ $.getJSON('https://cdn.jsdelivr.net/gh/cy-j/chenyu/jcweb/ysni/photos3.json?v='+n
 //尘遇-遇上你
 $(document).on('click', '#chenyu520', function() {
 layer.open({
-  type: 2,
+  type: 2, //默认0,为信息框,1为页面层,2为iframe层,3为加载层,4tips层
   title: '对自己好点，因为一辈子不长；对身边的人好点，因为下辈子不一定能遇见',
   shadeClose: true,
   shade: 0.8,
@@ -71,7 +71,7 @@ layer.open({
 //尘遇-打赏码
 $(document).on('click', '#chenyuds', function() {
 layer.open({
-  type: 1
+  type: 1 //默认0,为信息框,1为页面层,2为iframe层,3为加载层,4tips层
   ,title: '微信/QQ/支付宝三合一收款码' //false为不显示标题栏
   ,closeBtn: false
   ,area: '300px;'
