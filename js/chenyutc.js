@@ -100,7 +100,7 @@ layer.open({
   shade: 0.8,
   closeBtn: 0,
   area: ['auto'],
-  skin: 'layui-layer-nobg', //没有背景色
+  skin: 'layui-layer-rim', //加上边框
   shadeClose: true,
   content: $('#cyzdy1')
 });
