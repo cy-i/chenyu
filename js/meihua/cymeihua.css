@@ -70,9 +70,9 @@ body {
 	right: 0;
 	top: 0;
 	z-index: 1001;
-	width: 278px;
-	height: 155px;
-	background:transparent url(images/bg.png) no-repeat top right;
+	width: 342px;
+	height: 328px;
+	background:transparent url(images/cymeihua.png) no-repeat top right;
 }
 
 .leave {
