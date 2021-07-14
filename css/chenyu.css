@@ -331,3 +331,162 @@
 .chenyuhide {
     display:none;
 }
+
+
+/* 尘遇-公告 */
+.btn-large,.load-all,.popup-btn,.popup-btn-o,.page-number
+{
+	padding:0 15px;
+	line-height:40px;
+	font-size:14px;
+	display:inline-block;
+	border-radius:10px
+}
+.btn-gray:hover,.more:hover,.load-all:hover,.module-tab-item:hover,.module-blocklist a:hover,.video-info-aux .tag-link:hover,.page-number:hover
+{
+	background:#eaedf1
+}
+.btn-main,.popup-btn
+{
+	background:#ff2a14;
+	color:#fff
+}
+.popup
+{
+	box-shadow:0 .25rem .5rem rgba(0,0,0,.05),0 1.5rem 2.2rem rgba(0,0,0,.1)!important;
+	padding:0 30px;
+	background:#fff;
+	width:400px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:999999;
+	transform:translateX(-50%) translateY(-50%);
+	margin:0 auto;
+	border-radius:18px
+}
+.popup::after
+{
+	content:'';
+	height:80px;
+	width:100%;
+	background:#eaedf1;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	border-radius:18px 18px 0 0
+}
+.popup-header
+{
+	line-height:40px;
+	text-align:center
+}
+.popup-title
+{
+	position:relative;
+	font-size:18px;
+	font-weight:900;
+	display:inline-block
+}
+.popup-title::after
+{
+	content:'';
+	position:absolute;
+	width:100%;
+	height:30%;
+	background:#fde6dd;
+	border-radius:5px;
+	left:0;
+	bottom:5px;
+	z-index:-1
+}
+.close-popup:hover
+{
+	background:#fff
+}
+.close-popup i
+{
+	transform:scale(.88);
+	font-size:12px;
+	color:#fff
+}
+.close-popup:hover i
+{
+	color:#ff2a14
+}
+.popup-icon
+{
+	width:100%;
+	text-align:center;
+	height:220px;
+	margin:-60px 0 0
+}
+.popup-icon img
+{
+	height:220px
+}
+.popup-main
+{
+	padding-bottom:20px
+}
+.popup-main p
+{
+	padding:12px 0 0
+}
+.popup-main p a
+{
+	color:#ff2a14
+}
+.popup strong
+{
+	color:#ff2a14
+}
+.popup-footer
+{
+	padding:10px 0 30px;
+	text-align:center
+}
+.popup-footer p
+{
+	margin-top:10px
+}
+.popup-btn
+{
+	font-weight:700;
+	border-radius:50px;
+	width:100%;
+	cursor:pointer
+}
+.popup-btn-o
+{
+	color:#ff2a14;
+	font-weight:700;
+	width:50%;
+	margin:5px 5px;
+	cursor:pointer
+}
+.popup-btn-o::after
+{
+	border-color:#ff2a14;
+	border-radius:50px
+}
+.popup-msg
+{
+	position:fixed;
+	width:280px;
+	z-index:9999999;
+	height:auto;
+	padding:30px;
+	top:50%;
+	left:50%;
+	margin:-50px 0 0 -140px;
+	text-align:center;
+	color:#fff;
+	background-color:rgba(7,7,10,.92);
+	border-radius:10px
+}
+.popup-tips::after
+{
+	background:0 0
+}
