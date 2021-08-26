@@ -2,7 +2,7 @@ console.clear();
 console.log('lsakdfalskjdflnksd');
 
 const config = {
-  src: 'chenyurlrw.png',
+  src: 'img/chenyurlrw.png',
   rows: 15,
   cols: 7 };
 
