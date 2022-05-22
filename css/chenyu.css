@@ -3,9 +3,9 @@
 */
 @font-face {
 	font-family: "ysniziti";
-	src: url(https://cdn.jsdelivr.net/gh/cy-j/chenyu/font/blockdole.woff2) format("woff2"),
-	url(https://cdn.jsdelivr.net/gh/cy-j/chenyu/font/blockdole.woff) format("woff"),
-	url(https://cdn.jsdelivr.net/gh/cy-j/chenyu/font/blockdole.eot) format("embedded-opentype");
+	src: url(https://cdn.chenyu.me/gh/cy-j/chenyu/font/blockdole.woff2) format("woff2"),
+	url(https://cdn.chenyu.me/gh/cy-j/chenyu/font/blockdole.woff) format("woff"),
+	url(https://cdn.chenyu.me/gh/cy-j/chenyu/font/blockdole.eot) format("embedded-opentype");
 	font-display: swap;
   }
 

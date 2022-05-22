@@ -98,11 +98,11 @@
  document.addEventListener("visibilitychange",
  function() {
   if (document.hidden) {
-    $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-j/ysni@5.1.1/favicon.ico");
+    $('[rel="shortcut icon"]').attr("href", "https://cdn.chenyu.me/gh/cy-j/ysni@5.1.1/favicon.ico");
     document.title = "愿你眉眼如初，风华如故";
     clearTimeout(titleTime)
 } else {
-    $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-j/ysni@5.1.1/favicon.ico");
+    $('[rel="shortcut icon"]').attr("href", "https://cdn.chenyu.me/gh/cy-j/ysni@5.1.1/favicon.ico");
     document.title = "愿你有诗有梦，有坦荡的远方……_" + OriginTitile;
     titleTime = setTimeout(function() {
         document.title = OriginTitile

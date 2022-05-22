@@ -382,7 +382,7 @@
 	function X(e, t) {
 			return "" === e && (e = "ROOT"), "files:dir:" + _c.dirs_hash + ":" + (e || _c.current_dir.path) + ":" + (t || _c.current_dir.mtime)
 		}! function() {
-			var e = "https://cdn.jsdelivr.net/npm/",
+			var e = "https://cdn.chenyu.me/npm/",
 				t = "codemirror@5.57.0",
 				i = "headroom.js@0.11.0",
 				a = "mousetrap@1.6.5";

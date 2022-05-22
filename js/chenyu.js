@@ -95,11 +95,11 @@
  document.addEventListener("visibilitychange",
  function() {
   if (document.hidden) {
-    $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-j/chenyu/y.ico");
+    $('[rel="shortcut icon"]').attr("href", "https://cdn.chenyu.me/gh/cy-j/chenyu/y.ico");
     document.title = "青青子衿";
     clearTimeout(titleTime)
 } else {
-    $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-j/chenyu/favicon.ico");
+    $('[rel="shortcut icon"]').attr("href", "https://cdn.chenyu.me/gh/cy-j/chenyu/favicon.ico");
     document.title = "悠悠我心 - " + OriginTitile;
     titleTime = setTimeout(function() {
         document.title = OriginTitile

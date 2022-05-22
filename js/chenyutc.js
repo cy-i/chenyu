@@ -1,6 +1,6 @@
 //尘遇-相册
 $(document).on('click', '#chenyuxc1', function() {
-$.getJSON('https://cdn.jsdelivr.net/gh/cy-j/chenyu/jcweb/ysni/photos1.json?v='+new Date, function(json){
+$.getJSON('https://cdn.chenyu.me/gh/cy-j/chenyu/jcweb/ysni/photos1.json?v='+new Date, function(json){
   layer.photos({
     photos: json //格式见API文档手册页
   });
@@ -9,7 +9,7 @@ $.getJSON('https://cdn.jsdelivr.net/gh/cy-j/chenyu/jcweb/ysni/photos1.json?v='+n
 
 //尘遇-相册2
 $(document).on('click', '#chenyuxc2', function() {
-$.getJSON('https://cdn.jsdelivr.net/gh/cy-j/chenyu/jcweb/ysni/photos2.json?v='+new Date, function(json){
+$.getJSON('https://cdn.chenyu.me/gh/cy-j/chenyu/jcweb/ysni/photos2.json?v='+new Date, function(json){
   layer.photos({
     photos: json //格式见API文档手册页
     ,anim: 5 //0-6的选择，指定弹出图片动画类型，默认随机
@@ -19,7 +19,7 @@ $.getJSON('https://cdn.jsdelivr.net/gh/cy-j/chenyu/jcweb/ysni/photos2.json?v='+n
 
 //尘遇-相册3
 $(document).on('click', '#chenyuxc3', function() {
-$.getJSON('https://cdn.jsdelivr.net/gh/cy-j/chenyu/jcweb/ysni/photos3.json?v='+new Date, function(json){
+$.getJSON('https://cdn.chenyu.me/gh/cy-j/chenyu/jcweb/ysni/photos3.json?v='+new Date, function(json){
   layer.photos({
     photos: json //格式见API文档手册页
     ,anim: 5 //0-6的选择，指定弹出图片动画类型，默认随机
@@ -81,7 +81,7 @@ layer.open({
   ,btn: ['赞助名单', '微笑拒绝']
   ,btnAlign: 'c'
   ,moveType: 1 //拖拽模式，0或者1
-  ,content: '<div style="padding:20px; line-height:30px;  background-color: #f6f8fa; color: #fff; font-weight: 300; text-align:center;"><img src="https://cdn.jsdelivr.net/gh/cy-j/chenyu/img/zsm/cycode-cy.png" border="0" width="200px" height="200px"></div>'
+  ,content: '<div style="padding:20px; line-height:30px;  background-color: #f6f8fa; color: #fff; font-weight: 300; text-align:center;"><img src="https://cdn.chenyu.me/gh/cy-j/chenyu/img/zsm/cycode-cy.png" border="0" width="200px" height="200px"></div>'
   ,success: function(layero){
     var btn = layero.find('.layui-layer-btn');
     btn.find('.layui-layer-btn0').attr({
