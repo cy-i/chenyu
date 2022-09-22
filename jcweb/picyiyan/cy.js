@@ -42,8 +42,8 @@ document.querySelector(".cymeYear").innerHTML = date.getFullYear() + "年";
 10 > cymeMonth ? document.querySelector(".cymeMonth").innerHTML = cymeMonth + "月" : document.querySelector(".cymeMonth").innerHTML = cymeMonth + "月";
 10 > cymeMonth && (document.querySelector(".cymeDay").innerHTML = cymeDay);
 wiuiSjMain.style.padding = "0";
-var cymeYyRanBtn = document.querySelector("#xingyu-qh-btn"),
-    cymeYiYanTextBox = document.querySelector(".xingyu-YiYan");
+var cymeYyRanBtn = document.querySelector("#chenyu-qh-btn"),
+    cymeYiYanTextBox = document.querySelector(".chenyu-YiYan");
 
 function cymeRanYiYan() {
     var a = Math.floor(Math.random() * cymeYiYanBg.length);
