@@ -21,16 +21,16 @@ var cymeYiYan = [
   '满目山河空念远，落花风雨更伤春。不如怜取眼前人。——宋晏殊《浣溪沙》'
 ]
 var cymeYiYanBg = [
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/2.webp',
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/4.webp',
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/5.webp',
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/6.webp',
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/7.webp',
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/8.webp',
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/10.webp',
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/11.webp',
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/12.webp',
-    'https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.9.1/jcweb/picyiyan/14.webp'
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/2.webp',
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/4.webp',
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/5.webp',
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/6.webp',
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/7.webp',
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/8.webp',
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/10.webp',
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/11.webp',
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/12.webp',
+    'https://cdn.jsdelivr.net/gh/cy-i/chenyu@1.0.0/jcweb/picyiyan/14.webp'
     ]
 
 var cymeYiMain = document.querySelector(".cyme-suiji-main"),
