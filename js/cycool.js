@@ -4,7 +4,7 @@ document.addEventListener("visibilitychange",
 function() {
 if (document.hidden) {
   $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-i/chenyu/img/logo/cycool.ico");
-  document.title = "江湖走马，风也好，雨也罢";
+  document.title = "人间无事人";
   clearTimeout(titleTime)
 } else {
   $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-i/chenyu/yu.ico");
