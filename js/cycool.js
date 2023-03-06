@@ -3,7 +3,7 @@ titleTime;
 document.addEventListener("visibilitychange",
 function() {
 if (document.hidden) {
-  $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-i/chenyu/img/logo/cycool.ico");
+  $('[rel="shortcut icon"]').attr("href", "https://cdn.jsdelivr.net/gh/cy-i/chenyu/y.ico");
   document.title = "人间无事人";
   clearTimeout(titleTime)
 } else {
