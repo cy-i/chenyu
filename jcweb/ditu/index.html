@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>2019年自驾游线路图</title>
-    <link rel="stylesheet" href="leaflet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cy-i/chenyu/jcweb/ditu/leaflet.css">
     <style>
         html, body, #map {
             height: 100%;
@@ -16,7 +16,7 @@
 <body>
 <span id="forkongithub"><a href="https://chenyu.me/">尘遇</a></span>
 <div id="map"></div>
-<script src="main.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cy-i/chenyu/jcweb/ditu/main.min.js"></script>
 <script>
     var map = L.map('map');
     var baseLayers = {
@@ -312,7 +312,7 @@
     var series = [];
     [['自驾游第1阶段', BJData], ['自驾游第2阶段', SHData], ['自驾游第3阶段', GZData]].forEach(function (item, i) {
         series.push({
-                    name: item[0] + ' Linyufan.com',
+                    name: item[0] + ' ChenYu.Me',
                     type: 'lines',
                     zlevel: 1,
                     effect: {
@@ -332,7 +332,7 @@
                     data: convertData(item[1])
                 },
                 {
-                    name: item[0] + ' Linyufan.com',
+                    name: item[0] + ' ChenYu.Me',
                     type: 'lines',
                     zlevel: 2,
                     effect: {
@@ -353,7 +353,7 @@
                     data: convertData(item[1])
                 },
                 {
-                    name: item[0] + ' Linyufan.com',
+                    name: item[0] + ' ChenYu.Me',
                     type: 'effectScatter',
                     coordinateSystem: 'geo',
                     zlevel: 2,
@@ -413,7 +413,7 @@
             orient: 'vertical',
             top: 'bottom',
             left: 'left',
-            data: ['自驾游第1阶段 Linyufan.com', '自驾游第2阶段 Linyufan.com', '自驾游第3阶段 Linyufan.com'],
+            data: ['自驾游第1阶段 ChenYu.Me', '自驾游第2阶段 ChenYu.Me', '自驾游第3阶段 ChenYu.Me'],
             textStyle: {
                 color: '#fff'
             },
