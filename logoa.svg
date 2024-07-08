@@ -12,7 +12,7 @@
          stroke-dashoffset: var(--s-dd);
          animation: logo-animation 1.7s ease-in-out forwards;
          animation-delay: var(--a-d);
-         --s-dd: 2400;
+         --s-dd: 3600;
          --s-ddo:-2400;
 		 fill:url(#SVGID_1_);
       } 
