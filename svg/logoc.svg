@@ -3,14 +3,14 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#_未命名的渐变_28);
+        fill: url(#_ChenYuLOGO_28);
       }
 
       .cls-2 {
-        fill: url(#_未命名的渐变_24);
+        fill: url(#_ChenYuLOGO_24);
       }
     </style>
-    <linearGradient id="_未命名的渐变_24" data-name="未命名的渐变 24" x1="256" y1="508.36" x2="1324.49" y2="508.36" gradientUnits="userSpaceOnUse">
+    <linearGradient id="_ChenYuLOGO_24" data-name="ChenYuLOGO 24" x1="256" y1="508.36" x2="1324.49" y2="508.36" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f06944"/>
       <stop offset=".03" stop-color="#e86551"/>
       <stop offset=".12" stop-color="#d35a76"/>
@@ -21,7 +21,7 @@
       <stop offset=".72" stop-color="#9b3dda"/>
       <stop offset="1" stop-color="#9a3ddd"/>
     </linearGradient>
-    <linearGradient id="_未命名的渐变_28" data-name="未命名的渐变 28" x1="246.64" y1="326.08" x2="834.45" y2="326.08" gradientUnits="userSpaceOnUse">
+    <linearGradient id="_ChenYuLOGO_28" data-name="ChenYuLOGO 28" x1="246.64" y1="326.08" x2="834.45" y2="326.08" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#57d999"/>
       <stop offset=".21" stop-color="#49bea2"/>
       <stop offset=".65" stop-color="#257bbb"/>
